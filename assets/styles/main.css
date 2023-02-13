@@ -1,0 +1,132 @@
+body{
+
+    background-color:white;
+    font-family: verdana;
+}
+
+
+
+h1 {
+    
+    display: inline-block;
+    font-family: 'Calibri', sans-serif; 
+    font-style: italic;
+    font-size: 1.5cm;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    text-shadow:#d1d341 0 -3px;
+    bottom: 150px;
+    left: 80px;
+    
+  
+   
+}
+
+.log{
+    display: inline-block;
+    width: 30%;
+    
+}
+
+    h2{
+        
+        font-size: 30px; 
+        text-align: center; 
+        background: #ffffff; 
+        margin: 0 0 25px; 
+        overflow: hidden; 
+        padding: 0px; 
+        border: 1px solid #050506;
+        font-family: 'Calibri', sans-serif; 
+        color: #000000;
+        font-size: 50px;
+       
+       
+    }
+        
+
+
+nav{
+    position: relative;
+    left: 12mm;
+    
+    
+}
+
+main{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Calibri', sans-serif; 
+    font-size: 1cm;
+    color: #ffffff;
+    position: relative;
+    
+}
+
+
+
+
+.a2{
+  
+    text-shadow: #000000 0 -4px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    
+}
+
+
+
+.boton1 {
+   
+    width: 4.5rem;
+    height: 2rem;
+    text-align: center;
+    padding: 0.4rem; /*espacio alrededor texto*/
+    text-decoration: none; /*decoración texto*/
+    background-color: #3fc76f; /*color botón*/
+    color: #ffffff; /*color texto*/
+    font-family: 'Calibri', sans-serif; /*tipografía texto*/
+    box-shadow: 2px 2px rgb(112, 112, 112);
+    border-color: #000000;
+    border-width: 0.1rem;
+    top: 10px;
+    left: 20px;
+    margin: 1rem;
+    border-style: solid;
+
+}
+
+.boton2 {
+
+    display: inline;
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    padding: 0.4rem; /*espacio alrededor texto*/
+    text-decoration: none; /*decoración texto*/
+    background-color: #1462d6; /*color botón*/
+    color: #ffffff; /*color texto*/
+    font-family: 'Calibri', sans-serif; /*tipografía texto*/
+    box-shadow: 2px 2px rgb(109, 104, 104);
+    border-color: #000000;
+    border-width: 0.1rem;
+    top: 10px;
+    left: 20px;
+    margin: 1rem;
+    border-style: solid;
+       
+
+    }
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}

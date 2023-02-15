@@ -24,3 +24,46 @@ header>h2{
     padding: 0%;
 
 }
+
+
+.boton1 {
+   
+    width: 4.5rem;
+    height: 2rem;
+    text-align: center;
+    padding: 0.4rem; /*espacio alrededor texto*/
+    text-decoration: none; /*decoración texto*/
+    background-color: #3fc76f; /*color botón*/
+    color: #ffffff; /*color texto*/
+    font-family: 'Calibri', sans-serif; /*tipografía texto*/
+    box-shadow: 2px 2px rgb(112, 112, 112);
+    border-color: #000000;
+    border-width: 0.1rem;
+    top: 10px;
+    left: 20px;
+    margin: 1rem;
+    border-style: solid;
+
+}
+
+.boton2 {
+
+    display: inline;
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    padding: 0.4rem; /*espacio alrededor texto*/
+    text-decoration: none; /*decoración texto*/
+    background-color: #1462d6; /*color botón*/
+    color: #ffffff; /*color texto*/
+    font-family: 'Calibri', sans-serif; /*tipografía texto*/
+    box-shadow: 2px 2px rgb(109, 104, 104);
+    border-color: #000000;
+    border-width: 0.1rem;
+    top: 10px;
+    left: 20px;
+    margin: 1rem;
+    border-style: solid;
+       
+
+    }

@@ -63,6 +63,11 @@ table{
     
 }
 
+.tit{
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    color: #0a7664;
+    font-size: 0.6cm;
+}
 
 .container2{
 display: flex;

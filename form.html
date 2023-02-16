@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website_Sketch</title>
+        <link rel="stylesheet" href="./assets/styles/rules.css">
+    </head>
+
+    <header>
+        <nav>
+            <a class="boton1" href="index.html">Home </a>
+            <a class="boton2" href="about.html"> About </a>
+            <a class="boton2" href="contact.html"> Contact</a>
+            <a class="boton2" href="schedule.html" target="schedule"> Program </a>
+            <a class="boton2" href="Rules.html" target="Rules" > Rules</a>
+            <a class="boton2" href="form.html" target="Form" > Form</a>
+            
+        </nav>
+    
+     
+        </header>
+
+    <body>
+        <h1>Registration Form</h1>
+        <form action="./show_data.html">
+
+<p class="req"><b>*Required fields</b></p> 
+            <label for="nom" >Players First Name:</label>
+            <input name="Nombre" type="text" id="nom"><span style="color:red">*</span>
+            <label>
+                Last Name:
+                <input name="Apellido" type="text"><span style="color:red">*</span>
+            </label><br>
+            <label>
+                Street Address: <input name="Dirección" type="text"><span style="color:red">*</span>
+            </label><br>
+            <label>
+                City: <input name="Ciudad" type="text"><span style="color:red">*</span>
+            </label>
+            <label>
+                Zip Code: <input name="Ciudad" type="number"><span style="color:red">*</span>
+            </label><br>
+
+            <label>
+                Birth Date (mm/dd/yyyy): <input name="Nacimiento" type="date"><span style="color:red">*</span>
+            </label>
+<p>Gender:</p>
+           <label for="genero1">Femele
+            <input type="checkbox" id="genero1" name="genero1" value="Femenino"></label>
+            <label for="genero2"> Male
+            <input type="checkbox" id="genero2" name="genero2" value="Masculino"></label><br>
+
+
+<p>Grade:</p>
+<label for="grado0">Pre-school
+    <input type="checkbox" id="grado0" name="Grado0" value="Prescolar"></label>
+<label for="grado1"> 1st
+    <input type="checkbox" id="grado1" name="Grado1" value="Primero"></label>
+<label for="grado2"> 2nd
+    <input type="checkbox" id="grado2" name="Grado2" value="Segundo"></label>
+    <label for="grado3"> 3rd
+<input type="checkbox" id="grado3" name="Grado3" value="Tercero"></label>
+    <label for="grado4"> 4th
+<input type="checkbox" id="grado4" name="Grado4" value="Cuarto"></label>
+    <label for="grado5"> 5th
+<input type="checkbox" id="grado5" name="Grado5" value="Quinto"></label>
+
+
+<fieldset>
+    <legend><b>Which elementary school do you live near?</b></legend>
+
+<label><b>Closest School: </b><br></label>
+<label for="lugar1">AJ Katzenmaier
+<input type="checkbox" id="lugar1" name="Lugar1">
+</label>
+<label for="lugar2">Greenbay
+<input type="checkbox" id="lugar2" name="Lugar2">
+</label><br>
+<label for="lugar3">Howard A Yeager
+<input type="checkbox" id="lugar3" name="Lugar3">
+</label>
+<label for="lugar4">Marjorie P Hart
+<input type="checkbox" id="lugar4" name="Lugar4">
+</label><br>
+<label for="lugar5">North Elementary
+<input type="checkbox" id="lugar5" name="Lugar5">
+</label>
+<label for="lugar6">South Elementary
+<input type="checkbox" id="lugar6" name="Lugar6">
+</label><br>
+
+
+</fieldset>
+
+<fieldset>
+    <legend><b>What position(s) do you normally play? (check all that apply)</b></legend>
+
+<label for="pos1">Forward
+    <input type="checkbox" id="pos1" name="pos1">
+</label>
+<label for="pos2">Midfield
+    <input type="checkbox" id="pos2" name="pos2">
+</label><br>
+<label for="pos3">Defense
+    <input type="checkbox" id="pos3" name="pos3">
+</label>
+<label for="pos4">Goalkeeper
+    <input type="checkbox" id="pos4" name="pos4">
+</label><br>
+
+</fieldset>
+
+<fieldset>
+    <legend><b>Uniform Size:</b></legend>
+
+    <label for="size1">Youth Smal
+<input type="radio" id="size1" name="size" value="Youth Smal">
+</label>
+<label for="size2">Youth Medium
+<input type="radio" id="size2" name="size" value="Youth Medium">
+</label><br>
+<label for="size3">Youth Large
+<input type="radio" id="size3" name="size" value="Youth Large">
+</label>
+<label for="size4">Small
+<input type="radio" id="size4" name="size" value="Small">
+</label><br>
+<label for="size5">Medium
+<input type="radio" id="size5" name="size" value="Medium">
+</label>
+<label for="size6">Large
+<input type="radio" id="size6" name="size" value="Large">
+</label><br>
+<label for="size7">Extra-Large
+<input type="radio" id="size7" name="size" value="ExtraL">
+</label><br>
+
+
+</fieldset>
+
+<p><strong>Permission to Play</strong></p>
+<p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and voIunteers,incIuding the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which transportation.</p>
+<p>
+    By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso
+    acknowledge that I have read the cancellation policy and agree to its terms.</p>
+
+
+<label for="firma">Parent/GuardianSignature:
+<input type="text" id="firma" name="firma"></label><br>
+<label for="fecha">Date:
+<input type="date" id="fecha" name="fecha"></label>
+
+
+<input id="boton" type="submit">
+         
+        </form>
+    </body>
+
+</html>

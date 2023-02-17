@@ -28,44 +28,44 @@
 
 <p class="req"><b>*Required fields</b></p> 
             <label for="nom" >Players First Name:</label>
-            <input name="Nombre" type="text" id="nom"><span style="color:red">*</span>
+            <input name="Nombre" type="text" id="nom" required><span style="color:red">*</span>
             <label>
                 Last Name:
-                <input name="Apellido" type="text"><span style="color:red">*</span>
+                <input name="Apellido" type="text" required><span style="color:red">*</span>
             </label><br>
             <label>
-                Street Address: <input name="Dirección" type="text"><span style="color:red">*</span>
+                Street Address: <input name="Dirección" type="text" required><span style="color:red">*</span>
             </label><br>
             <label>
-                City: <input name="Ciudad" type="text"><span style="color:red">*</span>
+                City: <input name="Ciudad" type="text" required><span style="color:red">*</span>
             </label>
             <label>
-                Zip Code: <input name="Ciudad" type="number"><span style="color:red">*</span>
+                Zip Code: <input name="Ciudad" type="number" required><span style="color:red" >*</span>
             </label><br>
 
             <label>
-                Birth Date (mm/dd/yyyy): <input name="Nacimiento" type="date"><span style="color:red">*</span>
+                Birth Date (mm/dd/yyyy): <input name="Nacimiento" type="date" required><span style="color:red">*</span>
             </label>
 <p>Gender:</p>
            <label for="genero1">Femele
-            <input type="checkbox" id="genero1" name="genero1" value="Femenino"></label>
+            <input type="radio" id="genero1" name="genero1" value="Femenino"></label>
             <label for="genero2"> Male
-            <input type="checkbox" id="genero2" name="genero2" value="Masculino"></label><br>
+            <input type="radio" id="genero2" name="genero2" value="Masculino"></label><br>
 
 
 <p>Grade:</p>
 <label for="grado0">Pre-school
-    <input type="checkbox" id="grado0" name="Grado0" value="Prescolar"></label>
+    <input type="radio" id="grado0" name="Grado0" value="Prescolar"></label>
 <label for="grado1"> 1st
-    <input type="checkbox" id="grado1" name="Grado1" value="Primero"></label>
+    <input type="radio" id="grado1" name="Grado1" value="Primero"></label>
 <label for="grado2"> 2nd
-    <input type="checkbox" id="grado2" name="Grado2" value="Segundo"></label>
+    <input type="radio" id="grado2" name="Grado2" value="Segundo"></label>
     <label for="grado3"> 3rd
-<input type="checkbox" id="grado3" name="Grado3" value="Tercero"></label>
+<input type="radio" id="grado3" name="Grado3" value="Tercero"></label>
     <label for="grado4"> 4th
-<input type="checkbox" id="grado4" name="Grado4" value="Cuarto"></label>
+<input type="radio" id="grado4" name="Grado4" value="Cuarto"></label>
     <label for="grado5"> 5th
-<input type="checkbox" id="grado5" name="Grado5" value="Quinto"></label>
+<input type="radio" id="grado5" name="Grado5" value="Quinto"></label>
 
 
 <fieldset>
@@ -73,22 +73,22 @@
 
 <label><b>Closest School: </b><br></label>
 <label for="lugar1">AJ Katzenmaier
-<input type="checkbox" id="lugar1" name="Lugar1">
+<input type="checkbox" id="lugar1" name="Lugar1" value="Katzenmaier">
 </label>
 <label for="lugar2">Greenbay
-<input type="checkbox" id="lugar2" name="Lugar2">
+<input type="checkbox" id="lugar2" name="Lugar2" value="Greenbay">
 </label><br>
 <label for="lugar3">Howard A Yeager
-<input type="checkbox" id="lugar3" name="Lugar3">
+<input type="checkbox" id="lugar3" name="Lugar3" value="Howard">
 </label>
 <label for="lugar4">Marjorie P Hart
-<input type="checkbox" id="lugar4" name="Lugar4">
+<input type="checkbox" id="lugar4" name="Lugar4" value="Marjorie">
 </label><br>
 <label for="lugar5">North Elementary
-<input type="checkbox" id="lugar5" name="Lugar5">
+<input type="checkbox" id="lugar5" name="Lugar5" value="N Elementary">
 </label>
 <label for="lugar6">South Elementary
-<input type="checkbox" id="lugar6" name="Lugar6">
+<input type="checkbox" id="lugar6" name="Lugar6" value="S Elementary">
 </label><br>
 
 
@@ -98,16 +98,16 @@
     <legend><b>What position(s) do you normally play? (check all that apply)</b></legend>
 
 <label for="pos1">Forward
-    <input type="checkbox" id="pos1" name="pos1">
+    <input type="checkbox" id="pos1" name="pos1" value="forward">
 </label>
 <label for="pos2">Midfield
-    <input type="checkbox" id="pos2" name="pos2">
+    <input type="checkbox" id="pos2" name="pos2" value="mindfield">
 </label><br>
 <label for="pos3">Defense
-    <input type="checkbox" id="pos3" name="pos3">
+    <input type="checkbox" id="pos3" name="pos3" value="defense">
 </label>
 <label for="pos4">Goalkeeper
-    <input type="checkbox" id="pos4" name="pos4">
+    <input type="checkbox" id="pos4" name="pos4" value="goalkeeper">
 </label><br>
 
 </fieldset>
